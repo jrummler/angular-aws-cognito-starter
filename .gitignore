@@ -1,0 +1,7 @@
+
+.idea
+node_modules
+app/bower_components
+app/my-aws-credentials.json
+app/facebook-app-id
+Kitten.iml

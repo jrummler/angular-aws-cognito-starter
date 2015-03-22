@@ -1,0 +1,15 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <span class="glyphicon glyphicon-tree-conifer" aria-hidden="true"></span>
+            </a>
+        </div>
+        <button type="button" ng-click="loginWithFacebook()" ng-hide="isLoggedIn" class="btn btn-default navbar-btn">
+            Login with Facebook
+        </button>
+        <p ng-show="isLoggedIn">Hello {{userName}}</p>
+    </div>
+    <div id="fb-root">
+    </div>
+</nav>
