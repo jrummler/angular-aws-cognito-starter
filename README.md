@@ -15,3 +15,6 @@ I'd love some input from the community. Some tasks I just think of:
 * Externalize facebook app id from app.js (like the AWS credentials)
 * Gulp/Grunt buildsystem
 * Your idea
+
+## License
+MIT
