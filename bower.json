@@ -1,25 +1,23 @@
 {
-    "name": "AwsStarterApp",
-    "version": "0.0.0",
-    "description": "AwsStarterApp",
-    "main": "app/index.html",
-    "license": "MIT",
-    "private": true,
-    "dependencies": {
-        "angular": "1.2.x",
-        "angular-mocks": "1.2.x",
-        "jquery": "~2.1.1",
-        "bootstrap": "~3.1.1",
-        "angular-route": "1.2.x",
-        "angular-resource": "1.2.x",
-        "angular-bootstrap": "0.12.1",
-        "ng-facebook": "0.1.6",
-        "aws-sdk": "2.1.14"
-    },
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test"
-    ]
+  "name": "AwsStarterApp",
+  "version": "0.0.0",
+  "description": "AwsStarterApp",
+  "main": "app/index.html",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-mocks": "1.2.x",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1",
+    "ng-facebook": "0.1.6",
+    "aws-sdk": "2.1.14",
+    "angular-route": "~1.4.7"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
 }

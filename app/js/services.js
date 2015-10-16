@@ -13,7 +13,7 @@ angular.module('awsStarterApp')
                     params.Logins = {
                             "graph.facebook.com": authResponse.accessToken
                         };
-                    AWS.config.region = 'eu-west-1';
+                    AWS.config.region = 'us-east-1';  // CHANGE THIS FOR YOUR REGION
                     // initialize the Credentials object with our parameters
                     AWS.config.credentials = new AWS.CognitoIdentityCredentials(params);
 
